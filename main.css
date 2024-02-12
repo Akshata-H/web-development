@@ -1,0 +1,49 @@
+/*p{
+	color:red;
+	font-family:Arial;
+	font-style:italic;
+	font-size:24px;
+	/* font:bold italic 14px Tahoma;*/
+	
+	 
+}
+h1{
+	background-color:pink;
+	font-family:Tahoma;
+	font-weight:bold;
+	border-bottom: 8px solid green;
+	padding:10px 80px 0px 30px;  /*Top Right Bottom Left*/
+	/*padding:50px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:20px;
+	padding-right:20px;*/
+	
+	/* if you want bottom(10) and top(10) same and left(40) and right(40) same*/
+	/*padding:10px 40px;
+	border-style:solid; /* dashed,dotted */
+	/*border-width:5px;
+	border-color:blue;*/
+	/* border:3px ridge red; width,style,color*/
+	/* border specfication either only top,only bottom,only left or right */
+	
+	margin:0px;
+	/* margin:10px 30px 60px 100px; top right bottom left*/
+	
+	
+}
+body{
+	margin:0px;
+	padding:0px;
+}
+div{
+	border:1px solid red;
+	background-color:yellow;
+	width:250px;
+	
+}
+span{
+	color:green;
+	text-decoration:underline;
+	
+}
