@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box; 
+    font-family: Bradley Hand, cursive;
+}
+body,h1,h2{
+    margin: 30px;
+    padding: 0;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 150%; /* 75% larger then default */
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    margin-right: 10px;
+    
+
+    
+}
+section{
+    width: 100%;
+    overflow: hidden;
+    
+}
+ 
+.sec1{
+    border: 2px solid black;
+    padding:10px;
+    position: relative;
+    margin:5px;
+    background-color: rgb(111, 107, 107);
+    padding-top: 26px;
+}
+.sec2{
+    border: 2px solid black;
+    padding:10px;
+    position: relative;
+    margin:5px;
+    background-color: rgb(111, 107, 107);
+    padding-top: 26px;
+    
+}
+.sec3{
+    border: 2px solid black;
+    padding:10px;
+    position: relative;
+    margin:5px;
+    background-color: rgb(111, 107, 107);
+    padding-top: 26px;
+    
+}
+.heading1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    background-color: rgb(230, 147, 161);
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-inline: 20px;
+    font-size: 125%; /* 25% larger then defualt */
+    
+    
+}
+.heading2{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    margin: 0;
+    background-color:  #ca3d3ddc;
+    color: white;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-inline: 20px;
+    font-size: 125%; /* 25% larger then defualt */ 
+}
+.heading3{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    margin:0;
+    background-color: #dbb471;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-inline: 20px;
+    font-size: 125%; /* 25% larger then defualt */
+}
+/* Desktop view (992px and above) */
+@media (min-width:992px){
+        section{
+        width: 33.33%;
+        display: inline-flex;
+        padding: 15px;
+        float: left;
+
+        }
+}
+/* Tablet view (768px to 991px) */
+@media (min-width:768px) and (max-width:991px){
+    
+    .container{
+        display: block;
+        padding: 20px;
+        margin: 5px;
+        flex-direction: column;
+    }
+    
+    .sec1,.sec2{
+        width: 48%;
+        display: inline-flex;
+        margin: 5px 0;
+        padding: 20px;
+        
+        
+    }
+    .sec3{
+        width:97%;
+        margin: 0;
+        
+    
+    }
+}
+/* Mobile view (767px and below) */
+@media (max-width:767px){
+    .container{
+        display: block;
+        
+        
+    }
+}
